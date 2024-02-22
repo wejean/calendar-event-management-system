@@ -1,0 +1,43 @@
+/* styles/EventDetail.module.css */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .description, .date, .time, .invitees {
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+  
+  .editLink {
+    color: #007bff;
+    cursor: pointer;
+    margin-right: 15px;
+    text-decoration: none;
+  }
+  
+  .editLink:hover {
+    text-decoration: underline;
+  }
+  
+  .deleteButton {
+    color: #ff4757;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+  }
+  
+  .deleteButton:hover {
+    text-decoration: underline;
+  }
+  

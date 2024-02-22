@@ -1,0 +1,58 @@
+/* styles/Home.module.css */
+.container {
+    max-width: 640px;
+    margin: auto;
+    padding: 32px;
+    padding-bottom: 64px;
+  }
+  
+  .title {
+    font-size: 2.25rem; /* 36px */
+    font-weight: 800;
+    color: #1a202c;
+    margin-bottom: 24px;
+  }
+  
+  .eventList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .eventItem {
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  .eventLink {
+    font-size: 1.5rem; /* 24px */
+    color: #2b6cb0;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .eventLink:hover {
+    color: #2c5282;
+    text-decoration: underline;
+  }
+  
+  .createButton {
+    display: inline-block;
+    background-color: #4299e1;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8px 24px;
+    border-radius: 4px;
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .createButton:hover {
+    background-color: #2b6cb0;
+  }
+  

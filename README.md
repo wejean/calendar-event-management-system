@@ -26,6 +26,10 @@ Technologies: Nest.js, TypeScript, Postgres(elephantsql.com), Postman, CronJob(N
 
 1. Run tests: `npm run test`
 
+### Notification
+
+1. You can see the notification msg on console log 30mins before start event.
+
 
 ## 2. Front-End
 Technologies: Next.js, TypeScript
